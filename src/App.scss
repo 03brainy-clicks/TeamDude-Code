@@ -2,10 +2,15 @@
 .navigation {
   .inactive {
     color: #80008040;
+    cursor: pointer;
   }
   .button {
     border-radius: 10px;
     color: white;
+    cursor: pointer;
+  }
+  .profile {
+    cursor: pointer;
   }
 }
 /* ---------------- /Navigation ------------------ */

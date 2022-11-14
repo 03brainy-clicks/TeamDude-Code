@@ -16,7 +16,7 @@ const Navigation = () => {
       <div className="d-flex justify-content-between align-items-center color-2 font-regular-medium">
         <div className="px-3 inactive d-md-block d-none">My Assignment</div>
         <div className="px-3 inactive d-md-block d-none">Chat with Mentor</div>
-        <div className="px-3 d-md-block d-none">
+        <div className="px-3 d-md-block d-none profile">
           <img src={Profile} alt="profile" /> ProfileName&nbsp;&nbsp;
           <img src={Downarrow} alt="down arrow" />
         </div>

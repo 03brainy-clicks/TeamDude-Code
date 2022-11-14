@@ -129,9 +129,11 @@ const ReferAndEarn = () => {
             Friends Who Enrolled
           </div>
         </Link>
-        <div className="font-regular-medium color-2 my-4">
-          Terms & Conditions
-        </div>
+        <Link>
+          <div className="font-regular-medium color-2 my-4">
+            Terms & Conditions
+          </div>
+        </Link>
       </div>
     </div>
   );

@@ -12,6 +12,9 @@ function App() {
         <Route path="/FriendsReferred" exact element={<FriendsRef />} />
         <Route path="/" exact element={<ReferAndEarn />} />
       </Routes>
+      <div className="font-small text-center py-4 color-2">
+        coded by chandrakant kushwah
+      </div>
     </>
   );
 }

@@ -1,10 +1,15 @@
 /* ---------------- Navigation ------------------ */
 .navigation .inactive {
   color: rgba(128, 0, 128, 0.2509803922);
+  cursor: pointer;
 }
 .navigation .button {
   border-radius: 10px;
   color: white;
+  cursor: pointer;
+}
+.navigation .profile {
+  cursor: pointer;
 }
 
 /* ---------------- /Navigation ------------------ */
