@@ -1,0 +1,116 @@
+/* ---------------- Navigation ------------------ */
+.navigation .inactive {
+  color: rgba(128, 0, 128, 0.2509803922);
+}
+.navigation .button {
+  border-radius: 10px;
+  color: white;
+}
+
+/* ---------------- /Navigation ------------------ */
+/* ------------------ refer and earn page ------------- */
+.referandearn .Card {
+  box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.referandearn .Card button {
+  border-radius: 20px;
+  border: none;
+}
+.referandearn .referal {
+  background-image: var(--gradient-1);
+  padding: 2px;
+  border-radius: 10px;
+  width: auto;
+}
+.referandearn .code {
+  border-radius: 9px;
+  letter-spacing: 1.5rem;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+.referandearn .refrences {
+  min-width: auto;
+}
+.referandearn .work .procedure {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.referandearn .work .data {
+  width: 359px;
+}
+.referandearn .work .logo {
+  width: 65px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(217, 217, 217, 0.25);
+  border-radius: 50%;
+}
+
+/* ------------------ / refer and earn page ------------- */
+/* ------------------- friend ref page ------------------*/
+.friendRef {
+  /* ------------- cards scroll -----------------*/
+  /* ------------- cards scroll -----------------*/
+}
+.friendRef .code {
+  border-radius: 5px;
+  border: solid var(--color-1) 1px;
+  text-align: center;
+}
+.friendRef .balance {
+  box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+  border-radius: 20px;
+}
+.friendRef .heading {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.friendRef .count {
+  color: #626262;
+}
+.friendRef .cards {
+  overflow: scroll;
+}
+.friendRef .cards::-webkit-scrollbar {
+  width: 1em;
+}
+.friendRef .friendCard {
+  max-width: 358px;
+  width: 358px;
+  background-image: var(--gradient-1);
+  color: white;
+  border-radius: 20px;
+  /*--------------- courses scroll --------------*/
+  /*--------------- / courses scroll --------------*/
+}
+.friendRef .friendCard .courses {
+  max-height: 100px;
+  overflow-x: scroll;
+}
+.friendRef .friendCard .courses::-webkit-scrollbar {
+  width: 5px;
+}
+.friendRef .friendCard .courses::-webkit-scrollbar-thumb {
+  background-color: var(--color-4);
+  border-radius: 5px;
+}
+.friendRef .friendCard .courses::-webkit-scrollbar-corner {
+  width: 0px;
+}
+.friendRef .friendCard .course {
+  border: solid var(--color-4) 2px;
+  border-radius: 15px;
+}
+
+/* ------------------- / friend ref page ------------------*/
+/* ------------------------ media query -------------------*/
+@media only screen and (min-width: 600px) {
+  .friendCard {
+    min-width: 358px;
+  }
+}
+/* ------------------------/  media query -------------------*//*# sourceMappingURL=App.css.map */

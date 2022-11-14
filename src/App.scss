@@ -1,0 +1,133 @@
+/* ---------------- Navigation ------------------ */
+.navigation {
+  .inactive {
+    color: #80008040;
+  }
+  .button {
+    border-radius: 10px;
+    color: white;
+  }
+}
+/* ---------------- /Navigation ------------------ */
+/* ------------------ refer and earn page ------------- */
+.referandearn {
+  .Card {
+    box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    button {
+      border-radius: 20px;
+      border: none;
+    }
+  }
+  .referal {
+    background-image: var(--gradient-1);
+    padding: 2px;
+    border-radius: 10px;
+    width: auto;
+  }
+  .code {
+    border-radius: 9px;
+    letter-spacing: 1.5rem;
+    font-weight: 500;
+    // font-size: 20px;
+    font-size: 1.25rem;
+  }
+
+  .refrences {
+    min-width: auto;
+  }
+
+  .work {
+    .procedure {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .data {
+      width: 359px;
+    }
+    .logo {
+      width: 65px;
+      height: 65px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: rgba(217, 217, 217, 0.25);
+      border-radius: 50%;
+    }
+  }
+}
+/* ------------------ / refer and earn page ------------- */
+
+/* ------------------- friend ref page ------------------*/
+.friendRef {
+  .code {
+    border-radius: 5px;
+    border: solid var(--color-1) 1px;
+    text-align: center;
+  }
+  .balance {
+    box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+    border-radius: 20px;
+  }
+  .heading {
+    // font-size: 20px;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  .count {
+    color: #626262;
+  }
+  /* ------------- cards scroll -----------------*/
+  .cards {
+    overflow: scroll;
+  }
+
+  .cards::-webkit-scrollbar {
+    width: 1em;
+  }
+  /* ------------- cards scroll -----------------*/
+
+  .friendCard {
+    // min-width: 358px;
+    max-width: 358px;
+    width: 358px;
+    background-image: var(--gradient-1);
+
+    color: white;
+    border-radius: 20px;
+    .courses {
+      max-height: 100px;
+      overflow-x: scroll;
+    }
+
+    /*--------------- courses scroll --------------*/
+    .courses::-webkit-scrollbar {
+      width: 5px;
+    }
+
+    .courses::-webkit-scrollbar-thumb {
+      background-color: var(--color-4);
+      border-radius: 5px;
+    }
+    .courses::-webkit-scrollbar-corner {
+      width: 0px;
+    }
+    /*--------------- / courses scroll --------------*/
+
+    .course {
+      border: solid var(--color-4) 2px;
+      border-radius: 15px;
+    }
+  }
+}
+/* ------------------- / friend ref page ------------------*/
+
+/* ------------------------ media query -------------------*/
+@media only screen and (min-width: 600px) {
+  .friendCard {
+    min-width: 358px;
+  }
+}
+/* ------------------------/  media query -------------------*/

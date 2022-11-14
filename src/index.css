@@ -1,0 +1,113 @@
+/* GLOBAL CSS */
+/* imports  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("bootstrap/dist/css/bootstrap.css");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* VARIABLES  */
+:root {
+  /* colors  */
+  --color-1: #4d4d4d;
+  --color-2: #800080;
+  --color-3: #000000;
+  --color-4: #eeaeae;
+
+  /* gradient  */
+  --gradient-1: linear-gradient(270deg, #800080 0%, #ff864c 100%);
+
+  /* font sizes */
+
+  /* in px  */
+  /* --font-small: 14px;
+  --font-regular: 16px;
+  --font-medium: 24px;
+  --font-large: 32px; */
+
+  /* in rem  */
+  --font-small: 0.875 rem;
+  --font-regular: 1rem;
+  --font-medium: 1.5rem;
+  --font-large: 2rem;
+}
+
+/* back-color classes */
+.back-white {
+  background-color: white;
+}
+.back-color-1 {
+  background-color: var(--color-1);
+}
+.back-color-2 {
+  background-color: var(--color-2);
+}
+.back-color-3 {
+  background-color: var(--color-3);
+}
+.back-color-4 {
+  background-color: var(--color-4);
+}
+
+/* color classes  */
+.color-white {
+  color: white;
+}
+.color-1 {
+  color: var(--color-1);
+}
+.color-2 {
+  color: var(--color-2);
+}
+.color-3 {
+  color: var(--color-3);
+}
+.color-4 {
+  color: var(--color-4);
+}
+
+/* font size & weight classes  */
+.font-small {
+  font-size: var(--font-small);
+}
+.font-small-medium {
+  font-size: var(--font-small);
+}
+.font-regular {
+  font-size: var(--font-regular);
+}
+.font-regular-medium {
+  font-size: var(--font-regular);
+  font-weight: 500;
+}
+.font-regular-bold {
+  font-size: var(--font-regular);
+  font-weight: bold;
+}
+.font-medium {
+  font-size: var(--font-medium);
+}
+.font-medium-semibold {
+  font-size: var(--font-medium);
+  font-weight: 600;
+}
+
+.font-large-medium {
+  font-size: var(--font-large);
+  font-weight: 500;
+}
+.font-large-bold {
+  font-size: var(--font-large);
+  font-weight: bold;
+}
